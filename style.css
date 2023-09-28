@@ -1,0 +1,70 @@
+body {
+    font-size: 15pt;
+    background-color: white;
+}
+
+.container {
+  
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+button{
+  border: 0;
+  background: darkblue;
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  width: 75px;
+  height: 35px;
+  border: 1px solid #45a29e;
+  padding: 5px;
+  color: blue;
+  outline: none;
+  border-radius: 20px;
+}
+.box input[type ="number"]:focus{
+  width: 250px;
+  border-color: #fce181;
+  border-radius: 20px;
+ }
+ 
+ .box input[type ="number"]{
+  border: 0;
+  background: darkblue;
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  width: 150px;
+  height: 35px;
+  border: 1px solid #45a29e;
+  padding: 5px;
+  color: blue;
+  outline: none;
+  border-radius: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.box{
+  width: 250px;
+  padding: 20px;
+  position: absolute;
+  z-index: 1;
+  top: 110%;
+  left: 50%;
+  background-color: #0b0c10;
+  border-radius: 30px;
+  transform:translate(-50%)
+}
+
+h1 {
+  color: black;
+  font-size: 10
+}
+
+p {
+  color: whitesmoke;
+}
